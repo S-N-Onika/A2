@@ -1,0 +1,32 @@
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+span.wave{
+    background: linear-gradient(15deg, #F7E93F, #FB09B4, #9100F8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn {
+  padding: 8px 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  background-color: linear-gradient(65deg, #F7E93F, #FB09B4, #9100F8);
+  -webkit-background-clip: button;
+    background-clip: button;
+    -webkit-button-fill-color: transparent;
+  border: 2px solid white;
+  border-radius: 1000px;
+  cursor: pointer;
+}
+.btn:hover{
+    transform: scale(1.05);
+}
+#s1{
+    background-image: url(./B13-A02-TechWave/assets/hero-bg.png);
+}
