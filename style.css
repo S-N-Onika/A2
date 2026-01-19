@@ -36,10 +36,6 @@ span.wave{
   background-repeat: no-repeat;
   height: 500px;
 }
-.img img{
-  padding: 160px 0 0 620px;
-  position: relative;
-}
 .butn:hover{
     transform: scale(1.05);
 }
