@@ -42,3 +42,10 @@ span.wave{
 .but:hover{
     transform: scale(1.05);
 }
+.f{
+  background-image: url(./B13-A02-TechWave/assets/footer-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+}
