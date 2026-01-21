@@ -1,3 +1,6 @@
+body{
+  margin: 0px ;
+}
 .inter-font{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -105,15 +108,15 @@ span.wave{
     width: 200px;
     height:200px;
     border-radius: 1000px;
-    margin: 50px  170px;
+    margin: 50px  178px;
   }
   #s1 .img img{
     width: 90px;
     height: 120px;
   }
   .new{
-    top: 20%;
-    left: 12%;
+    top: 130px;
+    left: 330px;
   }
   #s1 h1 {
       font-size: 40px;
@@ -229,16 +232,20 @@ span.wave{
     text-align: center;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    margin-left: 20px;
-    margin-right: 20px;
-    height: 400px;
+    margin: 20px;
+    height: 450px;
   }
   #host h2{
     font-size: 32px;
   }
   #host .i{
-    margin-top: 160px;
+    margin-top: 30px;
     margin-bottom: 0px;
+  }
+  #host .grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   #host h3{
     margin-bottom: 10px;
@@ -257,19 +264,24 @@ span.wave{
     display: flex;
     flex-direction: column;
   }
-  #host .logo a img{
-    display: flex;
-    align-items: center;
-    background-color: #9100F8;
-    height: 10px;
-    width: 100px;
+  #host .logo {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    width: 20px;
+    margin-left: 290px;
+    border-radius: 100%;
+  }
+  #host .logo a{
+    width: 20px;
+    height: 20px;
   }
   #footer{
     background-image: url(.//B13-A02-TechWave/assets/footer-bg.png);
     background-position: center;
     background-size: 576px;
     background-repeat: no-repeat;
-    width: 576px;
+    width: 500px;
   }
   footer h1 {
     font-size: 36px;
@@ -281,6 +293,11 @@ span.wave{
     gap: 5px;
     justify-items: center;
     justify-content: space-between;
+    width: 576px;
+  }
+  #host .logo .t{
+    padding: 0px;
+    width: 100%;
   }
   .f .t{
     padding-right: 70px;
