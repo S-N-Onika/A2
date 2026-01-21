@@ -172,8 +172,13 @@ span.wave{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 330px;
   }
-  #techwave .gcc .m{
+  #techwave .g{
+    margin-left: 0px;
+    height: 230px;
+  }
+  #techwave .m{
     width: 330px;
     height: 200px;
   }
@@ -199,8 +204,12 @@ span.wave{
   #techwave .card p {
     font-size: 12px;
   }
+  #episodes{
+    padding: 80px;
+  }
   #episodes h2{
     font-size: 32px;
+    padding: 0px;
   }
   #episodes .e{
     flex-direction: column;
