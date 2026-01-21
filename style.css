@@ -1,4 +1,3 @@
-
 .inter-font{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -106,7 +105,7 @@ span.wave{
     width: 200px;
     height:200px;
     border-radius: 1000px;
-    margin: 50px  130px;
+    margin: 50px  170px;
   }
   #s1 .img img{
     width: 90px;
@@ -114,6 +113,7 @@ span.wave{
   }
   .new{
     top: 20%;
+    left: 12%;
   }
   #s1 h1 {
       font-size: 40px;
@@ -155,13 +155,36 @@ span.wave{
   }
   .why h1{
     font-size: 32px;
-    width: 400px;
     align-items: center;
+    padding-left:;
   }
   #techwave .gc {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    align-items: center;
+
+  }
+  #techwave .gcc{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  #techwave .gcc .m{
+    width: 330px;
+    height: 200px;
+  }
+  #techwave .gcc .n{
+    margin-right: 0px;
+  }
+  #techwave .gccc{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 335px;
+  }
+  #techwave .gccc .mm {
+    margin-left: 0px;
   }
   #techwave .card {
     width: 100%;
@@ -173,12 +196,24 @@ span.wave{
   #techwave .card p {
     font-size: 12px;
   }
-  #episodex h2{
+  #episodes h2{
     font-size: 32px;
   }
-  #episodes .flex {
+  #episodes .e{
     flex-direction: column;
-    gap: 15px;
+    align-items: center;
+    padding-right: 50px;
+  }
+  #episodes .d{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+  }
+  #episodes .flex .w{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
   }
   #episodes iframe {
     width: 100%;
